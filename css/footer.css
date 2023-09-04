@@ -1,0 +1,31 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+  gap: 5px;
+}
+
+.key-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.key-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 60px;
+  background-color: #3a3a3cff;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.key-block enter {
+  width: 60px;
+}
